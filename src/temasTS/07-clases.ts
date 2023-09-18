@@ -45,4 +45,18 @@ class Persona2{
 let persona2:Persona2;
 persona2=new Persona2(`mario`,23);
 persona2.imprimir();
+export class PilaString {
+    private vec: string[] = [];
+    insertar(x: string) {
+
+        this.vec.push(x);
+    }
+    extraer() {
+        if (this.vec.length > 0) {
+            return this.vec.pop();
+            return null;
+
+        }
+    }
+}
 
